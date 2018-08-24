@@ -1,0 +1,24 @@
+{
+    "name": "qinshuang/coc",
+    "description": "Coding on composer and coding on colossus!",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "qinshuang",
+            "email": "1378860132@qq.com"
+        }
+    ],
+    "require": {
+        "noahbuscher/macaw": "dev-master",
+        "illuminate/database": "*",
+        "filp/whoops": "*",
+        "predis/predis": "*"
+    },
+    "autoload": {
+        "classmap": [
+          "app/controller",
+          "app/model",
+          "service"
+        ]
+    }
+}
